@@ -1,7 +1,9 @@
 {
   "name": "kostyawhite/gendiff",
-  "bin": ["bin/gendiff"],
   "description": "Second Hexlet Project",
+  "keywords": ["cli", "hexlet"],
+  "type": "project",
+  "bin": ["bin/gendiff"],
   "license": "MIT",
   "authors": [
     {
