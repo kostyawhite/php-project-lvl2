@@ -1,5 +1,5 @@
 {
-  "name": "kostya_white/gendiff",
+  "name": "kostyawhite/gendiff",
   "bin": ["bin/gendiff"],
   "description": "Second Hexlet Project",
   "license": "MIT",
