@@ -12,12 +12,25 @@
     }
   ],
   "scripts": {
-    "phpcs": "phpcs"
+    "phpcs": "phpcs",
+    "phpcbf": "phpcbf",
+    "phpunit": "phpunit"
+  },
+  "autoload": {
+    "files": [
+      "src/gen-diff.php"
+    ],
+    "psr-4": {
+      "App\\": "src"
+    }
   },
   "require": {
-    "docopt/docopt": "^1.0"
+    "docopt/docopt": "^1.0",
+    "funct/funct": "^1.5"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "*"
+    "squizlabs/php_codesniffer": "*",
+    "phpunit/phpunit": "^8",
+    "psy/psysh": "^0.9.9"
   }
 }

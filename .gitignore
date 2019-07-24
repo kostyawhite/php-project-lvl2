@@ -1,1 +1,5 @@
 /vendor/
+after.json
+before.json
+phpunit.xml
+.phpunit.result.cache
