@@ -5,5 +5,4 @@ lint:
 lint-fix:
 	composer run-script phpcbf -- --standard=PSR12 src bin
 test:
-	# vendor/bin/phpunit tests
 	composer run-script phpunit tests
